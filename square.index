@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Square Example</title>
+</head>
+<body>
+    <h1>Hello Nimisha 👋</h1>
+    <h2>What are you Doing</h2>
+    <p>Hi, this is my first HTML page!</p>
+  
+    <div style="width:200px; height:200px; background-color:lightseagreen;">
+    </div>
+    
+</body>
+</html>

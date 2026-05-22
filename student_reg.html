@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/student_reg.css" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+       <div class="box">
+      <h1>Student Registration Form</h1>
+      <div class="form-data">
+        <form>
+          <table>
+            <tr>
+              <td><label for="fullname">Enter Your FullName</label></td>
+              <td>
+                <input
+                  type="text"
+                  id="fullname"
+                  name="fullname"
+                  placeholder="Enter fullname here"
+                  autocomplete="off"
+                  spellcheck="true"
+                />
+                <span class="validation">
+                  (fullname shoud be atleast 30 character long)</span
+                >
+              </td>
+            </tr>
+          </div>
+            <tr>
+              <td><label for="age">Enter Your Age</label></td>
+              <td>
+                <input
+                  type="number"
+                  id="age"
+                  name="age"
+                  placeholder="Enter age here"
+                  autocomplete="off"
+                />
+                <span class="validation"> (age in between 0 to 100)</span>
+              </td>
+            </tr>
+
+            <tr>
+              <td><label for="gender">Select Your Gender</label></td>
+              <td>
+                <input type="radio" name="gender" id="gender" value="male" />
+                Male
+                <input type="radio" name="gender" id="gender" value="female" />
+                Female
+
+                <input type="radio" name="gender" id="gender" value="other" />
+                Other
+              </td>
+            </tr>
+
+            <tr>
+              <td><label for="email">Enter Your Email</label></td>
+              <td>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Enter email here"
+                  autocomplete="off"
+                />
+                <span class="validation"> (please enter proper email)</span>
+              </td>
+            </tr>
+          </table>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
